@@ -94,6 +94,20 @@ corrosense predict --velocity 2.5 --diameter 0.05 --temp 40.0 --confidence 0.95
 
 ---
 
+## 📊 Streamlit Interactive Dashboard
+
+Launch the full-stack visual analytics dashboard:
+```bash
+streamlit run corrosion_app_FIXED_1.py
+```
+Features:
+- Real-time severity prediction over 5,000 empirical corrosion records across 63 material families.
+- Permutation feature importance and live training convergence plots.
+- Alloy material selection and corrosion mitigation advisor.
+
+
+---
+
 ## 🧪 Automated Verification Suite
 
 Run the full electrochemical and hydrodynamic test suite:
